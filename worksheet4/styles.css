@@ -147,6 +147,15 @@ iframe {
         color: navy;
         font-size: 20px;
     }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        color: darkblue;
+    }
 
 }
 
