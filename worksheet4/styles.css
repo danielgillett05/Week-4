@@ -10,11 +10,12 @@ body{
 header {
     background-color: hotpink;
     padding: 10px 0px 10px 0px;
+}
     
     h1 {
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         font-size: 60px;
-        text-align:center;
+        text-align: center;
     }
 
     ul {
@@ -24,8 +25,22 @@ header {
 
     .container-navigation {
         display: flex;
-        flex-wrap: wrapp;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+
     }
+
+    li {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 10px;
+        margin: 0px 3px;
+        border: 1px solid limegreen;
+        border-radius: 10px;
+        background-color: aliceblue;
+    }
+    .push{
+        margin-left: auto;
 }
 
 
